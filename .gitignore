@@ -1,0 +1,6 @@
+# Build directories
+public
+dist
+
+# lock
+*.lock
