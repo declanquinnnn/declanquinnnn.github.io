@@ -40,6 +40,12 @@ Just trying to figure it all out. I'm interested in writing, software, science, 
 homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
 
+toc = false
+showFooter = true
+footerContent = """
+All content licensed under CC BY-SA 4.0 license unless otherwise stated. Copyright © 2025 Declan Quinn.
+"""
+
 # Lists parameters
 paginationSize = 100
 listSummaries = false
