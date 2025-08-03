@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://declanquinnnn.github.io'
 languageCode = 'en-us'
 title = 'My basic personal website'
 theme = 'typo'
@@ -6,4 +6,65 @@ theme = 'typo'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[module]
+[module.hugoVersion]
+extended = false
+min = "0.116.0"
+
+# Default config
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A place for some thoughts"
+
+# Appearance settings
+theme = 'light'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hello there'
+homeIntroContent = """
+Just trying to figure it all out. I'm interested in writing, software, science, and other basic white guy stuff.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = false
+listDateFormat = '2006-01-02'
+
+[[params.social]]
+name = "github"
+url = "https://github.com/declanquinnnn"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
 
