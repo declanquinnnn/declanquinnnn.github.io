@@ -1,5 +1,5 @@
 ---
-title: "Doing a Bit Each Day"
+title: "Doing a bit each day"
 date: 2025-08-04T08:34:04+10:00
 draft: false
 ---

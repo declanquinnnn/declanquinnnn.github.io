@@ -1,9 +1,10 @@
 ---
-title: "About"
-date: 2025-08-04T09:00:40+10:00
+title: "about"
+hideBackToTop: true
+hideBreadCrumbs: true
 draft: false
 ---
 
-Hi! I'm Declan and this is my about page.
+Hi! I'm Declan and that's ~~about~~ all you need to know rn.
 
 

@@ -1,6 +1,6 @@
 baseURL = 'https://declanquinnnn.github.io/'
 languageCode = 'en-us'
-title = 'My basic personal website'
+title = '_my website'
 theme = 'typo'
 
 [caches]
@@ -16,7 +16,7 @@ min = "0.116.0"
 [params.breadcrumbs]
 enabled = true
 showCurrentPage = true
-home = "Home"
+home = "home"
 
 [taxonomies]
 tag = 'tags'
@@ -29,21 +29,22 @@ description = "A place for some thoughts"
 theme = 'light'
 colorPalette = 'default'
 hideHeader = false
+singleDateFormat = '2006-01-02'
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Hello there'
+homeIntroTitle = 'hello there!'
 homeIntroContent = """
-Just trying to figure it all out. I'm interested in writing, software, science, and other basic white guy stuff.
+Trying to figure stuff out, and hoping this place can encourage me to create and learn more and better-er.
 """
 
 # Collection to display on home
-homeCollectionTitle = 'Posts'
+homeCollectionTitle = "here's some posts :)"
 homeCollection = 'posts'
 
 toc = false
 showFooter = true
 footerContent = """
-All content licensed under CC BY-SA 4.0 license unless otherwise stated. Copyright © 2025 Declan Quinn.
+Copyright © 2025 Declan Quinn.
 """
 
 # Lists parameters
@@ -51,9 +52,9 @@ paginationSize = 100
 listSummaries = false
 listDateFormat = '2006-01-02'
 
-[[params.social]]
-name = "github"
-url = "https://github.com/declanquinnnn"
+# [[params.social]]
+# name = "github"
+# url = "https://github.com/declanquinnnn"
 
 # Main menu pages
 [[params.menu]]
@@ -75,5 +76,4 @@ weight=30
 [markup]
 [markup.highlight]
 style = 'algol'
-
 
