@@ -1,4 +1,4 @@
-baseURL = 'https://declanquinnnn.github.io'
+baseURL = 'https://declanquinnnn.github.io/'
 languageCode = 'en-us'
 title = 'My basic personal website'
 theme = 'typo'
@@ -58,15 +58,18 @@ url = "https://github.com/declanquinnnn"
 # Main menu pages
 [[params.menu]]
 name = "home"
-url = "/"
+url = ""
+weight=10
 
 [[params.menu]]
 name = "posts"
-url = "/posts"
+url = "posts"
+weight=20
 
 [[params.menu]]
 name = "about"
-url = "/about"
+url = "about"
+weight=30
 
 # Syntax highlight on code blocks
 [markup]
