@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = '_my website'
 theme = 'typo'
 
+enableEmoji = true
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
